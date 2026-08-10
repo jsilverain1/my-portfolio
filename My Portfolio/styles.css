@@ -1,0 +1,72 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.main-container img {
+  width: 30vw;
+  display: flex;
+}
+
+.main-container {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  margin-top: 20rem;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+
+.main-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: center;
+  justify-content: center;
+}
+.main-group span {
+  font-size: 2rem;
+}
+.main-group h1 {
+  font-weight: 600;
+  font-size: 4rem;
+  margin: 0;
+}
+.main-group h3 {
+  font-weight: 500;
+  font-size: 1.8rem;
+  opacity: 0.8;
+  margin: 0;
+}
+.btn {
+  border-radius: 3rem;
+  padding: 0.5rem;
+  border: 2px solid black;
+  cursor: pointer;
+  font-weight: 500;
+  text-wrap: nowrap;
+}
+.btn-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.socials {
+  display: flex;
+  gap: 2rem;
+}
+.socials i {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
