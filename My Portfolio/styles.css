@@ -21,7 +21,8 @@ header {
   display: flex;
   text-align: center;
   min-height: 100vh;
-  margin-top: 20rem;
+  /*margin-top: 15rem;*/
+  padding: 8rem;
   justify-content: center;
   align-items: center;
   gap: 15rem;
@@ -35,20 +36,24 @@ header {
   text-align: center;
   justify-content: center;
 }
+
 .main-group span {
   font-size: 2rem;
 }
+
 .main-group h1 {
   font-weight: 600;
   font-size: 4rem;
   margin: 0;
 }
+
 .main-group h3 {
   font-weight: 500;
   font-size: 1.8rem;
   opacity: 0.8;
   margin: 0;
 }
+
 .btn {
   border-radius: 3rem;
   padding: 0.5rem;
@@ -57,6 +62,7 @@ header {
   font-weight: 500;
   text-wrap: nowrap;
 }
+
 .btn-group {
   display: flex;
   gap: 1rem;
@@ -66,7 +72,59 @@ header {
   display: flex;
   gap: 2rem;
 }
+
 .socials i {
   font-size: 2.5rem;
   cursor: pointer;
+}
+
+h2 {
+  font-size: 2rem;
+  justify-content: center;
+  display: flex;
+}
+
+section{
+  padding: 8rem;
+  min-height: 100vh;
+}
+
+.lang-frame{
+  display: flex;
+  gap: 2rem
+}
+
+.lang-frame i {
+  font-size: 2.5rem;
+  gap: 2rem;
+}
+
+.grid-card{
+  border: 2px solid black;
+  border-radius: 3rem;
+  padding: 2rem 3rem;
+}
+
+
+.experience-info{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+}
+
+.experience-title{
+  margin-bottom: 3rem;
+}
+
+.ed span{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.ed p {
+  font-style: italic;
+}
+
+#education-info h2 {
+  margin-bottom: 10rem;
 }
