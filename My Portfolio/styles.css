@@ -1,8 +1,23 @@
+* {
+  font-family: "Carter One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 2rem;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: rgb(51, 100, 185);
 }
 
 .nav-links {
@@ -39,6 +54,7 @@ header {
 
 .main-group span {
   font-size: 2rem;
+  color: rgb(51, 100, 185);
 }
 
 .main-group h1 {
@@ -54,6 +70,7 @@ header {
   margin: 0;
 }
 
+
 .btn {
   border-radius: 3rem;
   padding: 0.5rem;
@@ -61,6 +78,11 @@ header {
   cursor: pointer;
   font-weight: 500;
   text-wrap: nowrap;
+}
+
+.btn:hover{
+  transform: scale(1.1);
+  background-color: rgb(51, 100, 185);
 }
 
 .btn-group {
@@ -84,14 +106,18 @@ h2 {
   display: flex;
 }
 
-section{
-  padding: 8rem;
-  min-height: 100vh;
+.technicalskills-info h3{
+  color: rgb(51, 100, 185);
 }
 
-.lang-frame{
+section {
+  padding: 8rem;
+  min-height: auto;
+}
+
+.lang-frame {
   display: flex;
-  gap: 2rem
+  gap: 2rem;
 }
 
 .lang-frame i {
@@ -99,32 +125,36 @@ section{
   gap: 2rem;
 }
 
-.grid-card{
+.grid-card {
   border: 2px solid black;
   border-radius: 3rem;
   padding: 2rem 3rem;
 }
 
-
 .experience-info{
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 }
+.experience-info span {
+  color: rgb(51, 100, 185);
+}
 
-.experience-title{
+.experience-title {
   margin-bottom: 3rem;
 }
 
-.ed span{
+.ed span {
   font-size: 1.3rem;
-  font-weight: 700;
+  font-weight: 700
 }
 
 .ed p {
   font-style: italic;
+  color: rgb(51, 100, 185);
 }
 
 #education-info h2 {
   margin-bottom: 10rem;
 }
+
