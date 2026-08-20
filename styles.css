@@ -159,3 +159,29 @@ section {
   margin-bottom: 10rem;
 }
 
+#contact h2 {
+  margin-bottom: 2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 8rem;
+  align-items: center;
+}
+
+input[type = "text"],
+input[type = "email"]{
+  width: 30vw;
+  height: 2vw;
+}
+
+textarea {
+  height: 15vh;
+  width: 30vw;
+}
+
+button{
+  width: 5vw;
+}
