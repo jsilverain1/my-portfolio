@@ -2,6 +2,16 @@
   font-family: "Carter One", system-ui;
   font-weight: 400;
   font-style: normal;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, p, span, a {
+  max-width: 100%;
+  overflow-wrap: break-word;
 }
 
 header {
@@ -186,4 +196,125 @@ textarea {
 
 button{
   width: 5vw;
+}
+
+@media (max-width: 900px) {
+  .main-container {
+    flex-direction: column;
+    padding: 5rem 2rem;
+    gap: 3rem;
+  }
+
+  .main-container img {
+    width: 55vw;
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  .main-group,
+  .main-text {
+    width: 100%;
+  }
+
+  section {
+    padding: 4rem 2rem;
+  }
+
+  .experience-info {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  header {
+    flex-direction: column;
+    padding: 1.5rem 1rem;
+    gap: 1rem;
+  }
+
+  .nav-bar {
+    width: 100%;
+  }
+
+  .nav-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-container {
+    padding: 3rem 1.5rem;
+    min-height: auto;
+  }
+
+  .main-container img {
+    width: 65vw;
+    max-width: 220px;
+  }
+
+  .main-group h1 {
+    font-size: 1.9rem;
+  }
+
+  .main-group h3 {
+    font-size: 1.4rem;
+  }
+
+  .main-group span {
+    font-size: 1.5rem;
+  }
+
+  .btn-group {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  section {
+    padding: 3rem 1rem;
+  }
+
+  .lang-frame {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .grid-card {
+    padding: 1.5rem 0.75rem;
+  }
+
+  .experience-info span {
+    font-size: 0.95rem;
+  }
+
+  .grid-card ul {
+    padding-left: 1.1rem;
+  }
+
+  .grid-card li {
+    font-size: 0.72rem;
+  }
+
+  form {
+    padding: 3rem 1rem;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  textarea {
+    height: 8rem;
+  }
+
+  button {
+    width: auto;
+    padding: 0.5rem 2rem;
+  }
 }
